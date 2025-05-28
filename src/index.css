@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body{
+    overflow-x: hidden;
+}
+@layer utilities {
+    .bg-stars {
+      background-color: #0d0d25;
+      background-image: radial-gradient(white 1px, transparent 1px);
+      background-size: 20px 20px;
+      background-repeat: repeat;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
